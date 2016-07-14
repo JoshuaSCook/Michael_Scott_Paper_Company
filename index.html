@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Michael Scott Paper Company Inc.</title>
+    
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<div id="content">
+    	<a href="index.html" id="logo_box">
+            <div id="logo">
+                <h1>MICHAEL SCOTT</h1>
+                <h2>PAPER COMPANY INC.</h2>
+            </div>
+        </a>
+		
+		<div id="slogan">
+			<p>Serving Scranton's Paper Needs Since 2009</p>
+		</div>
+        
+        <div id="login">
+        	<form>
+				<label for="login">Login: </label><input type="text" name="login">
+				<label for="password">Password: </label><input type="password" name="password">
+            </form>
+        </div>
+		
+		<div id="links">
+			<ul>
+				<li id="home_link"><a href="index.html">HOME</a></li>
+				<li id="mission_link"><a href="#mission">MISSION</a></li>
+				<li id="team_link"><a href="#team">TEAM</a></li>
+				<li id="order_link"><a href="#order">ORDER</a></li>
+				<li id="contact_link"><a href="#contact">CONTACT</a></li>
+			</ul>
+		</div>
+		
+		<div id="inspiration">
+			<img src="images/inspiration.png"></img>
+		</div>
+        
+        <div id="mission">
+        	<h1>Mission Statement</h1>
+            
+        	<p>Michael Scott Paper Company Inc. is an innovative wholesale packaging distributor, whose goal is to supply clients not only with a wide array of products - quickly, efficiently and cost-effectively - but also to offer creative solutions to fill any particular needs you may have.
+			<br><br>
+			For more than 3 weeks, Michael Scott Paper has served clients throughout Scranton, PA where we provide an assortment of wholesale paper supplies. Michael Scott Paper provides each client, from school systems, to government agencies, from office environments to tech start-ups, with customized paper solutions.
+			<br><br>
+			We are your single source for all of your paper needs, consultative service, and total customer satisfaction!</p>
+        </div>
+		
+		<div id="team">
+        	<h1>The Team</h1>
+			
+            <div class="bio" id="micheal">
+				<img src="images/michael.jpg"></img>
+                <h3>Michael Scott</h3>
+                <h4>Founder/CEO</h4>
+			</div>
+				
+			<div class="bio" id="pam">
+				<img src="images/pam.jpg"></img>
+                <h3>Pam Beesly</h3>
+                <h4>Receptionist</h4>
+			</div>
+			
+			<div class="bio" id="ryan">
+				<img src="images/ryan.png"></img>
+                <h3>Ryan Howard</h3>
+                <h4>Temp</h4>
+			</div>
+			
+			<div class="bio" id="vikram">
+				<img src="images/vikram.jpg"></img>
+                <h3>Vikram</h3>
+                <h4>Lead Sales</h4>
+			</div>
+        </div>
+			
+		<div id="order">
+        	<h1>Order Form</h1>
+            <br>
+            
+			<form>
+				<label for="paper_type">Paper Type: </label><select name="paper_type">
+					<option value="1" selected>Select a Paper Type</option>
+					<option value="plain_white">Plain White</option>
+					<option value="plain_white">Half Tone</option>
+					<option value="plain_white">38# Bond</option>
+					<option value="plain_white">Cover Stock</option>
+					<option value="plain_white">Speckled Vellum</option>
+				</select>
+				<input type="checkbox" name="ream_wrapper"><label for="ream_wrapper">Include Ream Wrapper?</label>
+				<br><br>
+				<input type="radio" name="size" value="ream"><label for="size">Ream (300 sheets)</label><br>
+				<input type="radio" name="size" value="half_ream"><label for="size">Half Ream (150 sheets)</label>
+				<br><br>
+				<label for="quantity">Quantity: </label><input type="text" name="quantity" size="3" maxlength="4">
+				<br><br>
+				<label for="instructions">Special Instructions:</label>
+				<br>
+				<textarea name="instructions" rows="4" cols="40">Type something here...</textarea>
+				<br>
+				<input type="submit" value="Add To Cart">
+			</form>
+		</div>
+        
+        <div id="contact">
+			<h1>Contact Us</h1>
+            <br>
+            
+            <p><strong>Address: </strong><br>1725 Slough Avenue Rm 203<br>Scranton, PA 18504</p>
+            <p><strong>Phone:</strong><br>570.123.4567</p>
+            <p><strong>Fax:</strong><br>570.123.4568</p>
+            <p><strong>Email:</strong><br><a href="#">info@michaelscottpaper.com</a></p>
+            <br>
+            
+            <form>
+            	<label for="name">Name: </label><input type="text" name="name">
+                <br>
+                <label for="email">Email: </label><input type="text" name="email">
+                <br><br>
+                <label for="message">Message: </label>
+                <br>
+                <textarea name="message" rows="10" cols="54">Type your message here...</textarea>
+            </form>      
+        </div>
+
+	</div>
+</body>
+
+
+
+</html>
